@@ -45,7 +45,7 @@ module.exports = [
         module: {
             rules: rules
         },
-        externals: ['@jupyter-widgets/base', '../dist/index'],
+        externals: ['../dist/index'],
         mode: mode
     },
     {
@@ -64,7 +64,6 @@ module.exports = [
         module: {
             rules: rules
         },
-        externals: ['@jupyter-widgets/base', '@jupyter-widgets/controls'],
         mode: mode
     },
     {
@@ -92,7 +91,6 @@ module.exports = [
         module: {
             rules: rules
         },
-        externals: ['@jupyter-widgets/base', '@jupyter-widgets/controls'],
         mode: mode
     }
 ];
